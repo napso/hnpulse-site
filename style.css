@@ -102,6 +102,66 @@ nav .nav-links a:hover {
   margin: 0 auto;
 }
 
+/* Hero Feature (AI Insights) */
+.hero-feature {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.hero-feature-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--orange);
+  background: rgba(255, 102, 0, 0.08);
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.hero-feature h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.hero-feature p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto 20px;
+}
+
+.insight-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.pill {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 100px;
+}
+
+.hero-feature-note {
+  font-size: 13px !important;
+  color: var(--text-secondary);
+  margin-bottom: 0 !important;
+}
+
 /* Features */
 .features {
   padding: 48px 0;
