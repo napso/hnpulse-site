@@ -22,7 +22,7 @@
   <div class="container">
     <div class="page-header">
       <h1>Privacy Policy</h1>
-      <p class="updated">Effective Date: February 5, 2026</p>
+      <p class="updated">Effective Date: February 17, 2026</p>
     </div>
 
     <div class="content">
@@ -48,12 +48,21 @@
       <ul>
         <li><strong>Hacker News API</strong> (<code>hacker-news.firebaseio.com</code>) — Public, read-only API for fetching stories and comments. No authentication required.</li>
         <li><strong>Algolia Search API</strong> (<code>hn.algolia.com</code>) — Public, read-only API for searching Hacker News stories. No authentication required.</li>
-        <li><strong>HNPulse Insights API</strong> — Our backend service that generates AI-powered comment summaries. Only the story ID is sent to produce the summary. No personal data, device identifiers, or user information is transmitted.</li>
+        <li><strong>HNPulse Insights API</strong> — Our backend service that powers the Comment Insights feature. When you use Comment Insights, publicly available Hacker News comments for the selected story are sent to our server, which processes them using OpenAI's API to generate a structured summary. Only the story's public comments are sent — no personal data, user identifiers, or device information is included in these requests.</li>
       </ul>
       <p>The Hacker News and Algolia APIs are publicly available and do not require any user credentials or personal information to access.</p>
 
+      <h2>AI-Powered Features</h2>
+      <p>The Comment Insights feature uses OpenAI's API (a third-party AI service) to analyze and summarize publicly available Hacker News comments. When you use this feature:</p>
+      <ul>
+        <li>Only publicly available Hacker News comment text is sent to OpenAI for processing</li>
+        <li>No personal data, user identifiers, device information, or IP addresses are shared with OpenAI</li>
+        <li>You are asked for consent before using this feature for the first time</li>
+        <li>You can choose not to use this feature — it does not affect any other functionality of the app</li>
+      </ul>
+
       <h2>Third Parties</h2>
-      <p>HNPulse does not share any data with third parties. There are no analytics services, advertising networks, or data brokers integrated into the app.</p>
+      <p>Other than the AI processing described above, HNPulse does not share any data with third parties. There are no analytics services, advertising networks, or data brokers integrated into the app.</p>
 
       <h2>Children's Privacy</h2>
       <p>HNPulse does not knowingly collect any personal information from children. The app does not collect personal information from any user.</p>
